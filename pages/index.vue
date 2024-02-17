@@ -129,14 +129,17 @@
   </section>
   <footer class="px-4 py-3 | flex | border-t">
     <div class="flex items-center gap-1">
-      <NuxtLink to="/" class="flex | p-1 | rounded-full bg-slate-700">
+      <NuxtLink
+        to="https://github.com/zabefofoon/memoku-guide"
+        target="_blank"
+        class="flex | p-1 | rounded-full bg-slate-700">
         <i class="icon icon-github | | text-white text-lg"></i>
       </NuxtLink>
-      <span class="text-sm">MEMOKU </span>
+      <NuxtLink to="https://github.com/zabefofoon/memoku-guide" target="_blank">
+        <span class="text-sm">MEMOKU</span>
+      </NuxtLink>
     </div>
-    <div class="ml-auto">
-      v1.0.0
-    </div>
+    <div class="ml-auto">v1.0.0</div>
   </footer>
 </template>
 
