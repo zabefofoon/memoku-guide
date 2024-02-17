@@ -1,75 +1,15 @@
-# Nuxt 3 Minimal Starter
+# MEMOKU
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+MEMOKU is a simple to-do list management web application. It allows users to manage tasks, write memos, and ensures important events are not forgotten.
 
-## Setup
+### Features
+Easy Memo: Users can easily write and manage memos.
+Notifications: Users can set notifications for important events to be reminded of them.
+Task Classification with Tags: Tasks can be easily categorized using tags.
+Date-based Task Registration: Users can register tasks for specific dates and times.
+Dark Mode/White Mode Support: Users can choose between dark mode or white mode according to their preferences.
+Task Analysis: Helps users efficiently manage tasks by analyzing their to-do list.
+Offline Mode Support: The application can be used even without an internet connection.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### License
+This project is distributed under the MIT License. Please refer to the LICENSE file for more details.
