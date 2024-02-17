@@ -140,7 +140,14 @@
   </footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+  title: 'MEMOKU Guide',
+  ogTitle: 'MEMOKU Guide',
+  description: 'Simple Task Management',
+  ogDescription: 'Simple Task Management',
+})
+</script>
 <style scoped lang="scss">
 .main-section {
   background: url('~/assets/images/background-1-mo.png') 50% 50% no-repeat;
