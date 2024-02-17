@@ -4,7 +4,10 @@ const path = require('path')
 export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/styles/basic.scss'],
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-TJHZ7TCTEY'
+  },
   build: {
     postcss: {
       postcssOptions: {
@@ -20,7 +23,11 @@ export default defineNuxtConfig({
     buildAssetsDir: 'assets',
     head: {
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/memoku-guide/favicon.ico' },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/memoku-guide/favicon.ico',
+        },
       ],
     },
   },
@@ -33,6 +40,6 @@ export default defineNuxtConfig({
     },
   },
   experimental: {
-    payloadExtraction: false
-  }
+    payloadExtraction: false,
+  },
 })
