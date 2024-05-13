@@ -145,10 +145,10 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'MEMOKU Guide',
-  ogTitle: 'MEMOKU Guide',
-  description: 'Simple Task Management',
-  ogDescription: 'Simple Task Management',
+  title: 'MEMOKU: A free, offline-capable, sleek web app for simple note-taking.',
+  ogTitle: 'MEMOKU: A free, offline-capable, sleek web app for simple note-taking.',
+  description: 'Introducing MEMOKU, your new memo and reminder web app featuring alarms, sleek UI, offline functionality, date-specific memo creation, and insightful todo analysis. Boost your productivity and stay organized with MEMOKU!',
+  ogDescription: 'Introducing MEMOKU, your new memo and reminder web app featuring alarms, sleek UI, offline functionality, date-specific memo creation, and insightful todo analysis. Boost your productivity and stay organized with MEMOKU!',
 })
 </script>
 <style scoped lang="scss">
